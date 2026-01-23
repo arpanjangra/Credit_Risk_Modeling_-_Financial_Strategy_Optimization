@@ -82,7 +82,6 @@ To overcome the "Black Box" nature of XGBoost, I utilized **SHAP (SHapley Additi
 </p>
 
 ---
-
 ## 📂 Repository Structure
 
 ```bash
@@ -98,15 +97,3 @@ To overcome the "Black Box" nature of XGBoost, I utilized **SHAP (SHapley Additi
 ├── src/                      # Helper scripts (WoE calculation, etc.)
 └── README.md
 
-🚀 How to Run
-Clone the repo:
-
-Bash
-
-git clone [https://github.com/yourusername/credit-risk-modeling.git](https://github.com/arpanjangra/Credit_Risk_Modeling_-_Financial_Strategy_Optimization.git)
-Install dependencies:
-
-Bash
-
-pip install pandas numpy scikit-learn xgboost shap matplotlib seaborn
-Run the notebooks in order (01 -> 04).
