@@ -4,7 +4,6 @@
 ![Python](https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge&logo=python)
 ![XGBoost](https://img.shields.io/badge/Model-XGBoost-orange?style=for-the-badge)
 ![Scikit-Learn](https://img.shields.io/badge/Library-Scikit_Learn-yellow?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Complete-green?style=for-the-badge)
 
 ## 📌 Executive Summary
 This project simulates a real-world **Credit Risk (Probability of Default) pipeline** for a retail bank. The goal was to build a robust scoring model that balances regulatory interpretability with high predictive power.
@@ -80,20 +79,3 @@ To overcome the "Black Box" nature of XGBoost, I utilized **SHAP (SHapley Additi
   <br>
   <em>Figure 3: Global Feature Importance. High Debt-to-Income ratio (Red dots, right side) is the strongest driver of default risk, followed by Loan Grade.</em>
 </p>
-
----
-## 📂 Repository Structure
-
-```bash
-├── data/
-│   ├── raw/                  # Original LendingClub dataset
-│   └── processed/            # Cleaned data & WoE transformed files
-├── notebooks/
-│   ├── 01_EDA_and_Cleaning.ipynb
-│   ├── 02_Feature_Engineering_WoE.ipynb
-│   ├── 03_Model_Training_Logistic_vs_XGB.ipynb
-│   └── 04_Strategy_and_SHAP.ipynb
-├── images/                   # Plots for README
-├── src/                      # Helper scripts (WoE calculation, etc.)
-└── README.md
-
